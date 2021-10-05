@@ -1,0 +1,36 @@
+title: Validadores baseados em cosmos-sdk
+description: Conteúdo focado em um conjunto de validadores para proteger a rede Cosmos blockchain baseada em cosmos-sdk. # this means to ignore newlines until "baseurl:"
+permalink: ':title/'
+baseurl: "/myvalidators" # the subpath of your site, e.g. /blog /flexible-jekyll
+url: "kaiofabian.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: kaiofabian
+social-linkedin: kaiofabian
+
+# Author Settings
+author: Kaio Fabian # add your name
+author-img: kaiofabian.png # add your photo
+about-author: Sou um entusiasta do Bitcoin e Blockchain, este canal é focado em um conjunto de validadores para proteger a rede Cosmos blockchain baseada em cosmos-sdk. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: kaiofabian # add your Github handle
+social-medium: kaiofabian
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
