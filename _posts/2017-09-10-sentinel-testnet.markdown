@@ -4,7 +4,7 @@ title: Sentinel - Rede de teste Bluenet-1
 date: 2017-09-10 00:00:00 +0300
 description: Testnet é uma cadeia de bloqueio do Sentinel alternativa para usar em testes. Isso permite que os desenvolvedores de aplicativos ou testadores do Sentinel façam experiências sem precisar usar DVPN real ou se preocupando em quebrar o blockchain do Sentinel. # Add post description (optional)
 img: sentinel-testnet.png # Add image post (optional)
-tags: [Token, Ecossistema Cosmos] # add tag
+tags: [Validador, Ecossistema Cosmos] # add tag
 button-1: Guia
 button-2: Detalhes do validador
 destaque: testnet
