@@ -1,7 +1,7 @@
 title: Validadores baseados em cosmos-sdk
 description: Conteúdo focado em um conjunto de validadores para proteger a rede Cosmos blockchain baseada em cosmos-sdk. # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
-baseurl: "/myvalidators" # the subpath of your site, e.g. /blog /flexible-jekyll
+baseurl: "/validators" # the subpath of your site, e.g. /blog /flexible-jekyll
 url: "kaiofabian.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: kaiofabian
 social-linkedin: kaiofabian
