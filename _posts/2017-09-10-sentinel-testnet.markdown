@@ -8,7 +8,7 @@ tags: [Validador, Ecossistema Cosmos] # add tag
 button-1: Guia
 button-2: Detalhes do validador
 destaque: testnet
-validador: https://explorer.bluenet.sentinel.co/validators
+validador: https://explorer.bluenet.sentinel.co/validator/sentvaloper1y3phjm3s7vg28r79p5q79d03t6nx7203hmaerq
 ---
 Testnet é uma cadeia de bloqueio do Sentinel alternativa para usar em testes. Isso permite que os desenvolvedores de aplicativos ou testadores do Sentinel façam experiências sem precisar usar DVPN real ou se preocupando em quebrar o blockchain do Sentinel.
 
