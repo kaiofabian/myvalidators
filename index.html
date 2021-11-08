@@ -4,13 +4,14 @@ layout: main
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></a>
+    <!--<a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>-->
   {% else %}
   {% endif %}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <h2 class="post-title"><!--<a href="{{post.url | prepend: site.baseurl}}">-->{{post.title}}<!--</a>--></h2>
     <p>{{ post.description }}</p>
-    <a href="{{post.url | prepend: site.baseurl}}"><button type="button" class="btn btn-outline-secondary larger">{{post.button-1}}</button></a>
+    <!--<a href="{{post.url | prepend: site.baseurl}}"><button type="button" class="btn btn-outline-secondary larger">{{post.button-1}}</button></a>-->
     <a href="{{post.validador}}" target="_blank"><button type="button" class="btn btn-outline-dark larger">{{post.button-2}}</button></a>
     <span class="post-destaque">{{post.destaque}}</span>
 
