@@ -1,7 +1,7 @@
 title: 'Kaio Fabian - Tecnologias Blockchain'
 description: 'Sou um entusiasta das tecnologias Bitcoin e Blockchain. Esse site é focado em um conjunto de validadores e serviços essenciais que apóio e contribuo para a segurança em diferentes Blockchains.' # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog /flexible-jekyll /validators
+baseurl: "/validators" # the subpath of your site, e.g. /blog /flexible-jekyll /validators
 url: "kaiofabian.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: kaiofabian
 social-linkedin: kaiofabian
